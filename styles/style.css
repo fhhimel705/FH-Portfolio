@@ -144,6 +144,10 @@ text {
   }
 }
 
+/* ------------------------------------
+RESPONSIVE
+-------------------------------------- */
+
 @media screen and (max-width: 600px) {
   .customize-img {
     width: 170px;
