@@ -163,12 +163,60 @@ text {
     width: 100%;
     
   }
-  @keyframes moveCart {
+ 
+  .cart01 {
+    animation: moveCart01 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes moveCart01 {
+  
     0% {
-      transform: translateX(-10px);
+      transform: translateX(20px);
     }
     100% {
-      transform: translateX(15px);
+      transform: translateX(-20px);
     }
   }
+  .cart02 {
+    animation: moveCart02 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes moveCart02 {
+  
+    0% {
+      transform: translateX(-20px);
+    }
+    100% {
+      transform: translateX(20px);
+    }
+  }
+  .cart03 {
+    animation: moveCart03 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes moveCart03 {
+  
+    0% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+  .cart04 {
+    animation: moveCart04 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes moveCart04 {
+  
+    0% {
+      transform: translateX(-20px);
+    }
+    100% {
+      transform: translateX(20px);
+    }
+  }
+  
+
+
 }
