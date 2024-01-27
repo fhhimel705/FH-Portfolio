@@ -60,18 +60,7 @@
 }
 
 .customized-div {
-  clip-path: polygon(
-    18% 5%,
-    37% 0,
-    100% 0,
-    100% 69%,
-    95% 84%,
-    85% 93%,
-    70% 100%,
-    0 100%,
-    0 32%,
-    7% 15%
-  );
+  clip-path: polygon(0 15%, 100% 15%, 100% 88%, 78% 88%, 82% 100%, 61% 88%, 0 89%);
   /* background-color: antiquewhite; */
 }
 
