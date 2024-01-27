@@ -22,12 +22,18 @@
 }
 
 @keyframes moveCart {
+  100% {
+    transform: translateY(-50px);
+  }
   0% {
-    transform: translateX(-50px);
+    transform: translateY(50px);
+  }
+  /* 0% {
+    transform: translateY(-50px);
   }
   100% {
-    transform: translateX(50px);
-  }
+    transform: translateY(50px);
+  } */
 }
 
 .banner-p {
