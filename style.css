@@ -133,7 +133,7 @@ text {
   }
   @keyframes moveCart {
     0% {
-      transform: translateX(-15px);
+      transform: translateX(-10px);
     }
     100% {
       transform: translateX(15px);
