@@ -12,28 +12,65 @@
   width: 1300px;
 }
 .customized-box:hover {
-  transform: rotate(360deg);
-  transition: transform 1s ease-in-out 0.5s;
+  /* transform: rotate(360deg);
+  transition: transform 1s ease-in-out 0.5s; */
   background-color: rgb(234, 211, 211);
 }
-.cart {
-  animation: moveCart 1s ease-in-out infinite alternate;
+.cart{
+
   box-shadow: 0px -1px 23px 3px rgba(128, 118, 110, 0.44);
 }
+.cart01 {
+  animation: moveCart01 1s ease-in-out infinite alternate;
+}
 
-@keyframes moveCart {
-  100% {
-    transform: translateY(-50px);
-  }
+@keyframes moveCart01 {
+
   0% {
     transform: translateY(50px);
   }
-  /* 0% {
+  100% {
+    transform: translateY(-50px);
+  }
+}
+.cart02 {
+  animation: moveCart02 1s ease-in-out infinite alternate;
+}
+
+@keyframes moveCart02 {
+
+  0% {
     transform: translateY(-50px);
   }
   100% {
     transform: translateY(50px);
-  } */
+  }
+}
+.cart03 {
+  animation: moveCart03 1s ease-in-out infinite alternate;
+}
+
+@keyframes moveCart03 {
+
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+.cart04 {
+  animation: moveCart04 1s ease-in-out infinite alternate;
+}
+
+@keyframes moveCart04 {
+
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(50px);
+  }
 }
 
 .banner-p {
