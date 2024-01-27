@@ -15,8 +15,8 @@
 }
 .customized-box:hover {
   /* transform: rotate(360deg);
-  transition: transform 1s ease-in-out 0.5s; */
-  background-color: rgba(211, 225, 234, 0.329);
+  transition: transform 1s ease-in-out 0.5s; 
+   background-color: rgba(211, 225, 234, 0.329); */
 }
 .cart{
 
