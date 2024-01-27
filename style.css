@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
 .customize-img {
   width: 350px;
 }
@@ -82,7 +84,7 @@
   font-size: 16px;
 }
 
-@keyframes changeText {
+/* @keyframes changeText {
   0% {
     opacity: 1;
   }
@@ -95,7 +97,7 @@
   100% {
     opacity: 1;
   }
-}
+} */
 
 .cus-section {
   width: 900px;
@@ -107,7 +109,7 @@
   /* background-color: antiquewhite; */
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
 
 text {
   animation: stroke 5s infinite alternate;
@@ -117,24 +119,24 @@ text {
 }
 @keyframes stroke {
   0% {
-    fill: rgba(72, 138, 204, 0);
-    stroke: rgba(54, 95, 160, 1);
+    fill: rgba(204, 72, 72, 0.108);
+    stroke: rgb(221, 146, 146);
     stroke-dashoffset: 25%;
     stroke-dasharray: 0 50%;
     stroke-width: 2;
   }
   70% {
-    fill: rgba(72, 138, 204, 0);
-    stroke: rgba(54, 95, 160, 1);
+    fill: rgba(114, 9, 9, 0);
+    stroke: rgb(232, 139, 139);
   }
   80% {
-    fill: rgba(72, 138, 204, 0);
-    stroke: rgba(54, 95, 160, 1);
+    fill: rgba(204, 72, 79, 0);
+    stroke: rgb(217, 135, 136);
     stroke-width: 3;
   }
   100% {
-    fill: rgba(72, 138, 204, 1);
-    stroke: rgba(54, 95, 160, 0);
+    fill: rgb(216, 73, 73);
+    stroke: rgba(160, 54, 54, 0);
     stroke-dashoffset: -25%;
     stroke-dasharray: 50% 0;
     stroke-width: 0;
