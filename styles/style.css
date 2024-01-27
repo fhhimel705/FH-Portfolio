@@ -115,7 +115,7 @@ text {
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
   stroke: #365fa0;
-  /* font-size: 100px; */
+  
 }
 @keyframes stroke {
   0% {
@@ -128,7 +128,8 @@ text {
   70% {
     fill: rgba(114, 9, 9, 0);
     stroke: rgb(232, 139, 139);
-  }
+   }
+
   80% {
     fill: rgba(204, 72, 79, 0);
     stroke: rgb(217, 135, 136);
