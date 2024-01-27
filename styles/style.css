@@ -16,7 +16,7 @@
 .customized-box:hover {
   /* transform: rotate(360deg);
   transition: transform 1s ease-in-out 0.5s; */
-  background-color: rgb(234, 211, 211);
+  background-color: rgba(211, 225, 234, 0.329);
 }
 .cart{
 
@@ -24,6 +24,10 @@
 }
 .cart01 {
   animation: moveCart01 1s ease-in-out infinite alternate;
+}
+
+.qualification{
+  box-shadow: 0px 0px 11px 4px rgba(156, 218, 239, 0.26);
 }
 
 @keyframes moveCart01 {
@@ -119,25 +123,25 @@ text {
 }
 @keyframes stroke {
   0% {
-    fill: rgba(204, 72, 72, 0.108);
-    stroke: rgb(221, 146, 146);
+    fill: rgba(72, 175, 204, 0.108);
+    stroke: rgb(146, 201, 221);
     stroke-dashoffset: 25%;
     stroke-dasharray: 0 50%;
     stroke-width: 2;
   }
   70% {
-    fill: rgba(114, 9, 9, 0);
-    stroke: rgb(232, 139, 139);
+    fill: rgba(9, 61, 114, 0);
+    stroke: rgb(139, 227, 232);
    }
 
   80% {
-    fill: rgba(204, 72, 79, 0);
-    stroke: rgb(217, 135, 136);
+    fill: rgba(72, 160, 204, 0);
+    stroke: rgb(135, 188, 217);
     stroke-width: 3;
   }
   100% {
-    fill: rgb(216, 73, 73);
-    stroke: rgba(160, 54, 54, 0);
+    fill: rgb(73, 154, 216);
+    stroke: rgba(54, 135, 160, 0);
     stroke-dashoffset: -25%;
     stroke-dasharray: 50% 0;
     stroke-width: 0;
