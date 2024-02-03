@@ -34,13 +34,13 @@
                 <input type="checkbox" class="theme-controller " value="night" />
 
                 <!-- sun icon -->
-                <svg class="swap-on fill-current w-10 h-10 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <svg class="swap-off fill-current w-10 h-10 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
                         d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
                 </svg>
 
                 <!-- moon icon -->
-                <svg class="swap-off fill-current w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <svg class="swap-on fill-current w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
                         d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
                 </svg>
@@ -110,24 +110,28 @@
                             class="fa-regular fa-circle-down"></i><a href="cv/Europass.pdf" download="Europass.pdf">
                             Download
                             CV</a></button>
-                    <button onclick="my_modal_3.showModal()" class="font-bold bg-sky-300 px-5 py-2 rounded-lg"><i
+                    <button onclick="my_modal_5.showModal()" class="font-bold bg-sky-300 px-5 py-2 rounded-lg"><i
                             class="fa-regular fa-address-book"></i> Contact</button>
                     <!-- ------------modal----------------- -->
-                    <dialog id="my_modal_3" class="modal">
+                    <!-- Open the modal using ID.showModal() method -->
+
+                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
-                            <form method="dialog">
-                                <button
-                                    class="bg-sky-600 p-2 rounded-full px-3 text-white font-bold text-xl absolute right-3 top-3">✕</button>
-                            </form>
                             <h3 class="font-bold text-lg">You can contact me through my mail or my phone number!</h3>
                             <p class="py-4 font-semibold text-slate-700"><span
                                     class="text-black text-xl font-semibold">Mali :</span> himelforkanulhoque@gmail.com
                             </p>
                             <p class="font-semibold text-slate-700"><span
                                     class="text-black text-xl font-semibold">Number :</span> +8801638618836</p>
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="bg-sky-600 p-2 rounded-xl px-3 text-white font-semibold text-xl  ">Close</button>
+                                </form>
+                            </div>
                         </div>
                     </dialog>
-
                 </div>
             </div>
         </section>
@@ -144,14 +148,10 @@
                 </div>
                 <div class="diff-item-2 py-5">
                     <div class="bg-base-200 md:text-9xl text-xs font-black grid place-content-center">
-                        <p class="md:text-xl w-11/12 text-slate-600  md:w-9/12 mx-auto text-center">I'm a student
-                            currently studying in a reputed university. People consider me as a
-                            responsible and co-operative person. Currently I'm looking for a suitable job due to my
-                            responsibilities and I believe I can make a valuable contribution to a respected
-                            organization in a suitable role. My goal is to work with honesty and dedication,
-                            continuously improving myself. I am committed to gaining the necessary skills and
-                            experience to take on more responsibilities and overcome the changing demands of the
-                            professional world, ensuring a successful career.</p>
+                        <p class="md:text-xl w-11/12 text-slate-600  md:w-9/12 mx-auto text-center">I'm a student in a
+                            well-known university where I'm known for being reliable and approachable. I'm eager to
+                            seize opportunities to expand my knowledge and achieve my aspirations. With enthusiasm for
+                            my studies, I'm determined to thrive in my chosen career path.</p>
 
                     </div>
 
@@ -160,7 +160,8 @@
             </div>
         </section>
         <!-- <section class="relative">
-            <p class="absolute bottom-12 right-96"><i class="fa-solid fa-face-laugh-beam text-7xl text-sky-300 "></i></p>
+            <p class="absolute bottom-12 right-96"><i class="fa-solid fa-face-laugh-beam text-7xl text-sky-300 "></i>
+            </p>
         </section> -->
 
         <!----------------------
@@ -173,55 +174,57 @@
             </section>
             <section class="grid md:grid-cols-4  my-3 gap-14 md:gap-10">
                 <div class="  customized-box relative p-7 py-10 rounded-lg cart cart01">
-                    
-                        <p
-                            class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
-                            <img src="icons/html.png" class="w-12 h-12" alt="">
-                        </p>
 
-                        <h5 class="text-2xl font-semibold my-5">Html</h5>
-                        <p class="text-lg text-slate-600">I am skilled in HTML, including HTML5, and have extensive
-                            experience working on numerous projects involving HTML and CSS.</p>
+                    <p class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
+                        <img src="icons/html.png" class="w-12 h-12" alt="">
+                    </p>
 
-                    </div>
+                    <h5 class="text-2xl font-semibold my-5">Html</h5>
+                    <p class="text-lg text-slate-600">I am skilled in HTML, including HTML5, and have extensive
+                        experience working on numerous projects involving HTML and CSS.</p>
 
-                
+                </div>
+
+
                 <div class="  customized-box relative  p-7 py-10 rounded-lg cart cart02">
 
                     <p class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
-                    <img src="icons/css.png" class="w-12 h-12" alt="">
+                        <img src="icons/css.png" class="w-12 h-12" alt="">
                     </p>
 
                     <h5 class="text-2xl font-semibold my-5">CSS</h5>
                     <p class="text-lg text-slate-600">Using CSS using frameworks like
-                        Bootstrap, Tailwind, and DaisyUI is my expertise. I feel very confident and at ease when working with Tailwind
+                        Bootstrap, Tailwind, and DaisyUI is my expertise. I feel very confident and at ease when working
+                        with Tailwind
                         and Bootstrap.</p>
 
                 </div>
                 <div class="  customized-box relative p-7 py-10 rounded-lg cart cart03">
-                    
-                        <p
-                            class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full bg-white">
-                            <img src="icons/js.png" class="w-12 h-12" alt=""></p>
 
-                        <h5 class="text-2xl font-semibold my-5">JavaScript</h5>
-                        <p class="text-lg text-slate-600">Out of all the programming languages such as C, C++, Python, and JavaScript, my prefersky one is JavaScript.</p>
+                    <p class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full bg-white">
+                        <img src="icons/js.png" class="w-12 h-12" alt="">
+                    </p>
 
-                    
+                    <h5 class="text-2xl font-semibold my-5">JavaScript</h5>
+                    <p class="text-lg text-slate-600">Out of all the programming languages such as C, C++, Python, and
+                        JavaScript, my prefersky one is JavaScript.</p>
+
+
 
                 </div>
                 <div class="  customized-box relative p-7 py-10 rounded-lg cart cart04 ">
-                    
-                        <p
-                            class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
-                            <img src="icons/react.png" class="w-12 h-12" alt=""></p>
 
-                        <h5 class="text-2xl font-semibold my-5">React</h5>
-                        <p class="text-lg text-slate-600">For advanced animation and enhanced website performance, React stands as unparalleled.</p>
+                    <p class="text-5xl absolute  -left-7 -top-7 p-3  rounded-full   bg-white">
+                        <img src="icons/react.png" class="w-12 h-12" alt="">
+                    </p>
 
-                    </div>
+                    <h5 class="text-2xl font-semibold my-5">React</h5>
+                    <p class="text-lg text-slate-600">For advanced animation and enhanced website performance, React
+                        stands as unparalleled.</p>
 
-                
+                </div>
+
+
 
             </section>
         </section>
@@ -229,7 +232,7 @@
         Summary of Resume
     ------------------------- -->
         <section class="section-width mx-auto">
-            <h2 class="text-4xl font-semibold text-center my-24">A summary of My Resume</h2>
+            <h2 class="text-4xl font-semibold text-center my-24">A summary of My CV</h2>
             <section class="grid md:grid-cols-2 gap-10">
                 <div>
                     <h3 class="text-3xl font-semibold qualification rounded-lg shadow-slate-300 p-2">My Education</h3>
@@ -245,10 +248,8 @@
                         </div>
                         <div class="collapse-content">
                             <h5 class="text-xl my-4 font-semibold text-slate-700">MONIPUR HIGH SCHOOL / 2008 - 2018</h5>
-                            <p class="font-semibold text-slate-600">List skill/technologies here. You can change the
-                                icon
-                                above to any of the 1500+ FontAwesome 5
-                                free icons available. Aenean commodo ligula eget dolor.</p>
+                            <p class="font-semibold text-slate-600">I finished my Secondary School Certificate (SSC)
+                                from a prestigious school in my country, achieving a perfect GPA of 5.</p>
                         </div>
                     </div>
                     <div class="collapse collapse-arrow bg-base-200 my-7">
@@ -260,10 +261,9 @@
                         <div class="collapse-content">
                             <h5 class="text-xl my-4 font-semibold text-slate-700">MIRPUR CANTONMENT PUBLIC SCHOOL AND
                                 COLLEGE / 2018 - 2020</h5>
-                            <p class="font-semibold text-slate-600">List skill/technologies here. You can change the
-                                icon
-                                above to any of the 1500+ FontAwesome 5
-                                free icons available. Aenean commodo ligula eget dolor.</p>
+                            <p class="font-semibold text-slate-600">I attended the MIRPUR CANTONMENT PUBLIC SCHOOL AND
+                                COLLEGE affiliated with the Bangladesh Army for my intermediate studies. I attained a
+                                perfect GPA of 5 in my Higher Secondary Certificate (HSC) exams.</p>
                         </div>
                     </div>
                     <div class="collapse collapse-arrow bg-base-200 my-7">
@@ -275,10 +275,8 @@
                         <div class="collapse-content">
                             <h5 class="text-xl my-4 font-semibold text-slate-700">BANGLADESH UNIVERSITY OF BUSINESS AND
                                 TECHNOLOGY / 2021 - Current</h5>
-                            <p class="font-semibold text-slate-600">List skill/technologies here. You can change the
-                                icon
-                                above to any of the 1500+ FontAwesome 5
-                                free icons available. Aenean commodo ligula eget dolor.</p>
+                            <p class="font-semibold text-slate-600">I am presently enrolled at BUBT in the Department of
+                                Computer Science and Engineering, pursuing my undergraduate studies.</p>
                         </div>
                     </div>
                     <!-- --------------------------
@@ -293,10 +291,8 @@
                         </div>
                         <div class="collapse-content">
                             <h5 class="text-xl my-4 font-semibold text-slate-700">Acme AI Ltd. / 2023</h5>
-                            <p class="font-semibold text-slate-600">List skill/technologies here. You can change the
-                                icon
-                                above to any of the 1500+ FontAwesome 5
-                                free icons available. Aenean commodo ligula eget dolor.</p>
+                            <p class="font-semibold text-slate-600">I served as an annotator in the production house at
+                                company named Acme AI Ltd.</p>
                         </div>
                     </div>
 
@@ -314,10 +310,8 @@
                             </div>
                             <div class="collapse-content">
                                 <h5 class="text-xl my-4 font-semibold text-slate-700">Youth Worth/ 2019 - Current</h5>
-                                <p class="font-semibold text-slate-600">List skill/technologies here. You can change the
-                                    icon
-                                    above to any of the 1500+ FontAwesome 5
-                                    free icons available. Aenean commodo ligula eget dolor.</p>
+                                <p class="font-semibold text-slate-600">I served my share of service as a volunteer for
+                                    my city and people and i still offer service to my people.</p>
                             </div>
                         </div>
 
@@ -331,10 +325,9 @@
                             <div class="collapse-content">
                                 <h5 class="text-xl my-4 font-semibold text-slate-700">Inter House Annual Sports-2019
                                 </h5>
-                                <p class="font-semibold text-slate-600">List skill/technologies here. You can change the
-                                    icon
-                                    above to any of the 1500+ FontAwesome 5
-                                    free icons available. Aenean commodo ligula eget dolor.</p>
+                                <p class="font-semibold text-slate-600">Our college hosts an inter-house annual sports
+                                    event every two years, including a parade to welcome our college chief. I took part
+                                    in that parade.</p>
                             </div>
                         </div>
                     </div>
